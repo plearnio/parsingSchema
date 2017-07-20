@@ -1,0 +1,25 @@
+{
+  "name": "parsing-schema",
+  "version": "1.0.0",
+  "description": "parsing schema to object or array",
+  "main": "main.js",
+  "scripts": {
+    "start-dev": "nodemon ./main.js --exec babel-node -e js",
+    "start": "node main.js --exec babel-node -e js"
+  },
+  "author": "plearn.io",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+  }
+}
