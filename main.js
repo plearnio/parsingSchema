@@ -211,6 +211,9 @@ const startParseObject = (data) => {
   } else if (data.type === 'array') {
     result = { 0: {} }
     parseObject(result[0], data)
+  } else if (data.type !== 'object' || data.type !== 'array') {
+    result = data.type
+    return result
   }
 
   convertArray(result)

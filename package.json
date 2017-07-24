@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start-dev": "nodemon ./main.js --exec babel-node -e js",
-    "start": "node main.js --exec babel-node -e js"
+    "start": "node main.js --exec babel-node -e js",
+    "test": "mocha"
   },
   "author": "plearn.io",
   "license": "MIT",
@@ -21,5 +22,7 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
   }
 }
